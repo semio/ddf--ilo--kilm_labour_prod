@@ -1,0 +1,8 @@
+concept,name,concept_type
+name,Name,string
+year,Year,time
+country,Country,entity_domain
+gdp_per_person_engaged_constant_1990_us_at_ppp,GDP per person engaged (constant 1990 US$ at PPP),entity_domain
+gdp_per_person_engaged_1990_100,GDP per person engaged (1990=100),measure
+gdp_per_hour_worked_constant_1990_us_at_ppp,GDP per hour worked (constant 1990 US$ at PPP),measure
+gdp_per_hour_worked_1990_100,GDP per hour worked (1990=100),measure
