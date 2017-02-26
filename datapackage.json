@@ -1,0 +1,125 @@
+{
+    "name": "ddf--ilo--kilm_labour_prod",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--gdp_per_hour_worked_1990_100--by--country--year.csv",
+            "name": "ddf--datapoints--gdp_per_hour_worked_1990_100--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gdp_per_hour_worked_1990_100"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gdp_per_hour_worked_constant_1990_us_at_ppp--by--country--year.csv",
+            "name": "ddf--datapoints--gdp_per_hour_worked_constant_1990_us_at_ppp--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gdp_per_hour_worked_constant_1990_us_at_ppp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gdp_per_person_engaged_1990_100--by--country--year.csv",
+            "name": "ddf--datapoints--gdp_per_person_engaged_1990_100--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gdp_per_person_engaged_1990_100"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--gdp_per_person_engaged_constant_1990_us_at_ppp--by--country--year.csv",
+            "name": "ddf--datapoints--gdp_per_person_engaged_constant_1990_us_at_ppp--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gdp_per_person_engaged_constant_1990_us_at_ppp"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "country"
+            }
+        }
+    ]
+}
